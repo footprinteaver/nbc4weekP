@@ -3,7 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class CharacterStats : MonoBehaviour
+[System.Serializable]
+public class Condition
+{
+    [HideInInspector]
+    public float curValue;
+    public float maxValue;
+    public float startValue;
+}
+
+    public class CharacterStats : MonoBehaviour
 {
 
 }
