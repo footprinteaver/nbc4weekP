@@ -13,7 +13,13 @@ public enum ConsumableType
 { 
     HP,
     MP,
-    stamina
+}
+
+public enum EquipableType
+{
+    Weapon,
+    Armor,
+    Accessory
 }
 
 [System.Serializable] 
