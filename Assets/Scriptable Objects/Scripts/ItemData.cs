@@ -29,6 +29,12 @@ public class ItemDataConsumable
     public float value;
 }
 
+public class ItemDataEquipable
+{
+    public EquipableType type;
+}
+
+
 [CreateAssetMenu(fileName = "Item", menuName = "New Item")]
 public class ItemData : ScriptableObject
 {
